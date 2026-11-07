@@ -1,9 +1,9 @@
 {
   "capital": 999.77,
   "position": null,
-  "jour": "2026-11-07",
-  "trades_jour": 2,
-  "gagnants_jour": 1,
+  "jour": "2026-11-08",
+  "trades_jour": 0,
+  "gagnants_jour": 0,
   "recap_envoye": "2026-11-07",
   "signaux_vus": {
     "BTCUSDT": 1794031200000,
