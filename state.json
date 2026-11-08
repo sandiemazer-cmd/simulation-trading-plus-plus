@@ -1,18 +1,8 @@
 {
-  "capital": 995.16,
-  "position": {
-    "paire": "ETHUSDT",
-    "entree": 2238.85,
-    "levier": 1,
-    "mise": 995.16,
-    "sl": 2235.7797632143493,
-    "tp": 2244.990473571301,
-    "derniere_bougie": 1794110400000,
-    "bougies": 4,
-    "heure": "2026-11-08T04:14+01:00"
-  },
+  "capital": 991.81,
+  "position": null,
   "jour": "2026-11-08",
-  "trades_jour": 1,
+  "trades_jour": 2,
   "gagnants_jour": 0,
   "recap_envoye": "2026-11-07",
   "signaux_vus": {
