@@ -34,12 +34,16 @@ CHAT = os.getenv("TELEGRAM_CHAT_ID")
 
 def telegram(msg):
     print(msg)
-    if TOKEN and CHAT:
-        try:
-            requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage",
+    if not TOKEN or not CHAT:
+        print("⚠️ Telegram non configuré : secret TELEGRAM_TOKEN ou TELEGRAM_CHAT_ID_TRADING manquant")
+        return
+    try:
+        r = requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage",
                           data={"chat_id": CHAT, "text": msg}, timeout=10)
-        except Exception as e:
-            print("Erreur Telegram :", e)
+        if not r.ok:
+            print("⚠️ Telegram a refusé le message :", r.status_code, r.text)
+    except Exception as e:
+        print("⚠️ Erreur Telegram :", e)
 
 
 def bougies(paire):
@@ -172,6 +176,9 @@ def recap(s):
 
 def main():
     s = charger()
+    if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":   # lancement manuel = test
+        etat = f"en position sur {s['position']['paire']}" if s["position"] else "sans position"
+        telegram(f"🔧 [SIMU] Bot en ligne, {etat}\nCapital : {s['capital']:.2f} €")
     aujourd_hui = dt.datetime.now(PARIS).date().isoformat()
     if s["jour"] != aujourd_hui:
         s["jour"], s["trades_jour"], s["gagnants_jour"] = aujourd_hui, 0, 0
