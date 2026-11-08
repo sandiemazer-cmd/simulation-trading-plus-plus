@@ -1,6 +1,16 @@
 {
   "capital": 987.75,
-  "position": null,
+  "position": {
+    "paire": "SOLUSDT",
+    "entree": 89.56,
+    "levier": 1,
+    "mise": 987.75,
+    "sl": 89.30685698079675,
+    "tp": 90.06628603840649,
+    "derniere_bougie": 1794163500000,
+    "bougies": 0,
+    "heure": "2026-11-08T19:59+01:00"
+  },
   "jour": "2026-11-08",
   "trades_jour": 3,
   "gagnants_jour": 0,
@@ -10,7 +20,7 @@
     "BNBUSDT": 1794073500000,
     "XRPUSDT": 1794095100000,
     "ETHUSDT": 1794106800000,
-    "SOLUSDT": 1794137400000
+    "SOLUSDT": 1794163500000
   },
   "debut": "2026-11-06T15:21+01:00"
 }
