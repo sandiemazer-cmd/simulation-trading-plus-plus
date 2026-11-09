@@ -1,6 +1,16 @@
 {
   "capital": 982.99,
-  "position": null,
+  "position": {
+    "paire": "XRPUSDT",
+    "entree": 1.1008,
+    "levier": 1,
+    "mise": 982.99,
+    "sl": 1.094057910646578,
+    "tp": 1.1142841787068438,
+    "derniere_bougie": 1794263400000,
+    "bougies": 0,
+    "heure": "2026-11-09T23:44+01:00"
+  },
   "jour": "2026-11-09",
   "trades_jour": 0,
   "gagnants_jour": 0,
@@ -8,7 +18,7 @@
   "signaux_vus": {
     "BTCUSDT": 1794031200000,
     "BNBUSDT": 1794073500000,
-    "XRPUSDT": 1794095100000,
+    "XRPUSDT": 1794263400000,
     "ETHUSDT": 1794106800000,
     "SOLUSDT": 1794163500000
   },
