@@ -15,7 +15,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 4
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,10 +27,15 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Lancer le bot V2
+        run: python bot_v2.py
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       - name: Sauvegarder l'état
         run: |
           git config user.name "bot-simulation"
           git config user.email "bot@users.noreply.github.com"
-          git add state.json trades.csv
+          git add state.json trades.csv state_v2.json trades_v2.csv
           git commit -m "Simulation : mise à jour" || echo "Rien à sauvegarder"
           git pull --rebase && git push
