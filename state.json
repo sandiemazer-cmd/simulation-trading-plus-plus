@@ -1,18 +1,8 @@
 {
-  "capital": 980.67,
-  "position": {
-    "paire": "XRPUSDT",
-    "entree": 1.0642,
-    "levier": 1,
-    "mise": 980.67,
-    "sl": 1.0581827036828748,
-    "tp": 1.0762345926342507,
-    "derniere_bougie": 1794366000000,
-    "bougies": 0,
-    "heure": "2026-11-11T04:14+01:00"
-  },
+  "capital": 973.17,
+  "position": null,
   "jour": "2026-11-11",
-  "trades_jour": 0,
+  "trades_jour": 1,
   "gagnants_jour": 0,
   "recap_envoye": "2026-11-10",
   "signaux_vus": {
