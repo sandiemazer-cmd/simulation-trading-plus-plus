@@ -1,13 +1,23 @@
 {
   "capital": 968.67,
-  "position": null,
+  "position": {
+    "paire": "BNBUSDT",
+    "entree": 683.36,
+    "levier": 1,
+    "mise": 968.67,
+    "sl": 681.5617545025494,
+    "tp": 686.9564909949012,
+    "derniere_bougie": 1794394800000,
+    "bougies": 0,
+    "heure": "2026-11-11T12:14+01:00"
+  },
   "jour": "2026-11-11",
   "trades_jour": 2,
   "gagnants_jour": 0,
   "recap_envoye": "2026-11-10",
   "signaux_vus": {
     "BTCUSDT": 1794383100000,
-    "BNBUSDT": 1794073500000,
+    "BNBUSDT": 1794394800000,
     "XRPUSDT": 1794366000000,
     "ETHUSDT": 1794106800000,
     "SOLUSDT": 1794163500000
