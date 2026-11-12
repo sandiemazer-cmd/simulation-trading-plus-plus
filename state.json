@@ -1,18 +1,8 @@
 {
-  "capital": 978.95,
-  "position": {
-    "paire": "SOLUSDT",
-    "entree": 83.38,
-    "levier": 1,
-    "mise": 978.95,
-    "sl": 83.09895476965363,
-    "tp": 83.94209046069274,
-    "derniere_bougie": 1794478500000,
-    "bougies": 0,
-    "heure": "2026-11-12T11:29+01:00"
-  },
+  "capital": 973.7,
+  "position": null,
   "jour": "2026-11-12",
-  "trades_jour": 0,
+  "trades_jour": 1,
   "gagnants_jour": 0,
   "recap_envoye": "2026-11-11",
   "signaux_vus": {
