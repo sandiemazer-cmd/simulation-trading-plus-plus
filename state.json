@@ -1,18 +1,8 @@
 {
-  "capital": 933.89,
-  "position": {
-    "paire": "DOGEUSDT",
-    "entree": 0.05902,
-    "levier": 1,
-    "mise": 933.89,
-    "sl": 0.0587012998130706,
-    "tp": 0.05965740037385881,
-    "derniere_bougie": 1794771900000,
-    "bougies": 3,
-    "heure": "2026-11-15T20:14+01:00"
-  },
+  "capital": 926.98,
+  "position": null,
   "jour": "2026-11-15",
-  "trades_jour": 2,
+  "trades_jour": 3,
   "gagnants_jour": 0,
   "recap_envoye": "2026-11-15",
   "signaux_vus": {
