@@ -1,6 +1,16 @@
 {
   "capital": 933.89,
-  "position": null,
+  "position": {
+    "paire": "DOGEUSDT",
+    "entree": 0.05902,
+    "levier": 1,
+    "mise": 933.89,
+    "sl": 0.0587012998130706,
+    "tp": 0.05965740037385881,
+    "derniere_bougie": 1794769200000,
+    "bougies": 0,
+    "heure": "2026-11-15T20:14+01:00"
+  },
   "jour": "2026-11-15",
   "trades_jour": 2,
   "gagnants_jour": 0,
@@ -11,7 +21,7 @@
     "XRPUSDT": 1794576600000,
     "ETHUSDT": 1794733200000,
     "SOLUSDT": 1794478500000,
-    "DOGEUSDT": 1794711600000
+    "DOGEUSDT": 1794769200000
   },
   "debut": "2026-11-06T15:21+01:00"
 }
