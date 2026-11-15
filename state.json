@@ -7,14 +7,14 @@
     "mise": 933.89,
     "sl": 0.0587012998130706,
     "tp": 0.05965740037385881,
-    "derniere_bougie": 1794769200000,
-    "bougies": 0,
+    "derniere_bougie": 1794771900000,
+    "bougies": 3,
     "heure": "2026-11-15T20:14+01:00"
   },
   "jour": "2026-11-15",
   "trades_jour": 2,
   "gagnants_jour": 0,
-  "recap_envoye": "2026-11-14",
+  "recap_envoye": "2026-11-15",
   "signaux_vus": {
     "BTCUSDT": 1794383100000,
     "BNBUSDT": 1794394800000,
