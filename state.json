@@ -1,18 +1,8 @@
 {
-  "capital": 931.72,
-  "position": {
-    "paire": "BNBUSDT",
-    "entree": 594.05,
-    "levier": 2,
-    "mise": 931.72,
-    "sl": 592.1366402247986,
-    "tp": 597.8767195504025,
-    "derniere_bougie": 1794892500000,
-    "bougies": 8,
-    "heure": "2026-11-17T04:29+01:00"
-  },
+  "capital": 922.0,
+  "position": null,
   "jour": "2026-11-17",
-  "trades_jour": 0,
+  "trades_jour": 1,
   "gagnants_jour": 0,
   "recap_envoye": "2026-11-16",
   "signaux_vus": {
